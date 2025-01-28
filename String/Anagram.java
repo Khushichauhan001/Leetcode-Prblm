@@ -3,7 +3,7 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()){
-            return false ;
+            return false ; 
         }
         int[] charCount = new int[26];
 
